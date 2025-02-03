@@ -1,8 +1,10 @@
 .header {
   background-color: #140c1f;
 }
-.header .container .logo {
-  max-width: 40%;
+@media (max-width: 767px) {
+  .header .container .logo {
+    max-width: 40%;
+  }
 }
 @media (max-width: 767px) {
   .header .container .logo h1 {
